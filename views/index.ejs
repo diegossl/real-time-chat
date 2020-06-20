@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Web</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <div class="nickname_container" id="nick">
+    <span><h2>Digite seu nome</h2></span>
+    <form id="submit">
+      <input type="text" id="nickname" />
+    </form>
+  </div>
+
+  <div id="chat" hidden>
+    <div class="menu"=>
+      <div class="name" id="name"></div>
+      <div class="last" id="time"></div>
+    </div>
+    <ol class="chat"></ol>
+    <input class="textarea" type="text" placeholder="Type here!" id="textarea" />
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="/javascripts/socket.js"></script>
+</body>
+</html>
