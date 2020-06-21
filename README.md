@@ -18,3 +18,9 @@ npm start
 Agora o sistema está pronto para ser utilizado através da rota:
 
 [http://localhost:3000](http://localhost:3000)
+
+Basta inserir seu nome que você entrará no chat. Para ter outras pessoas no chat é preciso abrir a mesma rota acima para abas diferente do navegador e entrar como pessoas diferentes no chat.
+
+## Licença
+
+MIT
