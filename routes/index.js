@@ -2,8 +2,9 @@
 
 const express = require('express')
 const router = express.Router()
-const ChatController = require('../app/controllers/ChatController')
 
-router.get('/', ChatController.create)
+router.get('/', function (request, response) {
+  return response.render('index')
+})
 
 module.exports = router
