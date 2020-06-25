@@ -24,7 +24,7 @@ var server = http.createServer(app);
 
 //Websocket server
 var io = webSocketIO.listen(server);
-require('../util/Socket')(io)
+require('../socket/Ws')(io)
 
 /**
  * Listen on provided port, on all network interfaces.
