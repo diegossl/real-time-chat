@@ -1,26 +1,26 @@
-# Chat de Navegador
+# Browser Chat
 
-Um chat para comunicação de N pessoas em tempo real.
+A chat for communication of several people in real time through the browser.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
 npm install
 ```
 
-Finalmente, digite o seguinte comando no terminal para iniciar o servidor:
+Finally, type the following command in the terminal to start the server:
 
 ```bash
 npm start
 ```
-Agora o sistema está pronto para ser utilizado através da rota:
+The system is now ready to be used via the route:
 
 [http://localhost:3000](http://localhost:3000)
 
-Basta inserir seu nome, que você entrará no chat. Para simular outras pessoas no chat é preciso abrir a mesma rota descrita acima para abas diferente do navegador e entrar como pessoas diferentes no chat.
+Just type your name and hit enter and you will enter the chat. To simulate other people in the chat, it is necessary to open the same route above, for different browser tabs and to enter different people in the chat.
 
-## Licença
+## License
 
 MIT
