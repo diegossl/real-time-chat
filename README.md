@@ -2,6 +2,10 @@
 
 A chat for communication of several people in real time through the browser.
 
+## Print Screen
+
+![print screen](https://github.com/diegossl/Real-time-chat-with-Socket.io/blob/master/doc/img1.png)
+
 ## Setup
 
 To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
